@@ -1,0 +1,205 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+   background-color: rgb(250, 235, 218);
+}
+header{
+width: 100%;
+height: 83vh;
+
+border-radius: 20px;
+margin: auto;
+
+}
+header nav{
+width: 100%;
+height: 10vh;
+border-radius: 20px;
+background-color: rgb(1, 1, 1);
+margin: auto;
+display: flex;
+align-items: center;
+justify-content: space-between;
+position: fixed;
+opacity: 60%;
+
+} 
+
+header nav ul{
+list-style: none;
+display: flex;
+color: aqua;
+
+}
+nav a{
+    text-decoration: none;
+    color: aliceblue;
+}
+nav a:hover{
+    color: #f91010;
+    transition: .4s linear;
+}
+header nav ul li{
+padding: 3px 15px;
+cursor: pointer;
+}
+header nav h3{
+margin-left: 4%;
+color: white;
+cursor: pointer;
+
+}
+header nav h3:hover{
+    background-color: red;
+    color: black;
+    border-radius: 20%;
+    transition: .4s linear;
+    }
+header .chardham_bx_2{
+
+width: 100%;
+height: 54vh;
+
+
+border-radius: 20px;
+background-image: url(img/chardham/chardham-route-map.png);
+background-size: contain;
+background-repeat: no-repeat; 
+
+cursor: pointer;
+margin-left: 11%;
+}
+.chardham_bx_2:hover{
+opacity: 100%;
+}
+header .chardham_6{
+
+}
+
+
+header h1{
+text-align: center;
+font-size: 50px;
+margin-top: 2%;
+cursor: pointer;
+color: blueviolet;
+transition: .2s linear;
+
+}
+header h1:hover{
+color: rgb(255, 12, 12);
+text-transform: capitalize;
+text-shadow: 3px 3px 4px black;
+cursor: pointer;
+}
+.charlogo{
+size: 15px;
+}
+
+/* kedarnath */
+.kdr_0{
+margin-top: -6%;
+}
+.kdr1{
+display: inline-block;
+width: 18%;
+height: 33vh;
+border: 2px solid black;
+margin-left:5% ;
+border-radius: 360px;
+background-image: url(img/chardham/kedarnath-mandir-hindu-temple-lord-shiva-uttarakhand-india-yatra-illustration-280308483.webp);
+background-size: contain;
+background-repeat: no-repeat;
+
+}
+.bdr2{
+margin-left: 20%;
+display: inline-block;
+width: 18%;
+height:33vh;
+border: 2px solid black;
+margin-left:5% ;
+margin-top: 5%;
+border-radius: 360px;
+background-image: url(img/chardham/bdrccc.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+.gan{
+    margin-left: 20%;
+display: inline-block;
+width: 18%;
+height:33vh;
+border: 2px solid black;
+margin-left:5% ;
+margin-top: 5%;
+border-radius: 360px;
+background-image: url(img/ymc1.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+
+}
+.yum{
+    
+    display: inline-block;
+    width: 18%;
+    height:33vh;
+    border: 2px solid black;
+   margin-left: 5%;
+    margin-top: 5%;
+    border-radius: 360px;
+    background-image: url(img/yum12.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.kchab h2{
+        margin-top: 2%;
+        font-size: 48px;
+        font-weight: bold;
+        color: #f91010;
+        text-align: center;
+        animation: glow .3s ease-in-out infinite alternate;
+        text-shadow: 0 0 10px rgba(70, 6, 231, 0.5), 0 0 20px rgba(29, 221, 4, 0.5), 0 0 30px rgba(102, 236, 12, 0.5);
+
+}
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px rgba(10, 251, 82, 0.5), 0 0 20px rgba(21, 223, 3, 0.5), 0 0 30px rgba(41, 252, 4, 0.5);
+    }
+    to {
+        text-shadow: 0 0 20px rgba(89, 2, 210, 0.9), 0 0 40px rgba(11, 224, 39, 0.9), 0 0 60px rgba(7, 255, 52, 0.9);
+    }
+}
+
+.kchab p{
+    margin-top: 2%;
+    margin-left: 3%;
+    margin-right: 3%;
+    font-size: 20px;
+}
+
+/* kedarnath */
+.kdr12{
+margin-top: 10%;
+margin-left: 3%;
+margin-left: 3%;
+
+}
+
+.kdr12 img{
+    margin-top: -10%;
+    filter: drop-shadow(5px 5px 10px rgb(220, 113, 113));
+}
+.kdr12 p{
+    margin-right: 3%;
+    font-size: 20px;
+}
+.kdr12 h2{
+    
+    font-family: cursive;
+    font-size: 50px;
+    text-shadow: 5px 5px 10px yellow;
+}

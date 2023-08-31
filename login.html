@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login Page</title>
+  <style>
+#loginf1{
+    margin-left: 30%;
+    margin-top: 5%;
+}
+    .btnlogin{
+        margin-left: 15%;
+    }
+    h2{
+        margin-left: 25%;
+        margin-top: 5%;
+        width: 10px;
+        width: 6%;
+        border: 1px solid black;
+        border-radius: 5px;
+        background-color: rgb(37, 141, 233);
+    }
+    header{
+    width: 100%;
+    height: 8vh;
+    border: 1px solid #000 ;
+    margin: auto;
+}
+header nav{
+    width: 100%;
+    height: auto;
+    background-color: rgb(139, 130, 195);
+    
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+} 
+header nav ul{
+    list-style: none;
+    display: flex;
+}
+header nav ul li{
+
+    padding: 3px 15px;
+    
+}
+header nav h3{
+  margin-left: 2%;
+}
+.newusr{
+  margin-top: 1%;
+}
+.forgetps{
+  margin-left: 1%;
+}
+.newuser{
+  margin-left: 32%;
+}
+  </style>
+  
+</head>
+<body>
+  <header>
+    <nav>
+      <h3>travelwithshivam</h3>
+      <ul>
+        <li><a href="update.html">Home</a></li>
+        <li><a href="#">contact us</a></li>
+      </ul>
+    </nav>
+  </header>
+  <div class="login.con">
+    <h2 class="loginh2">Login</h2>
+    <form id="loginf1">
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username" required> <br>
+      <br>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password" required>
+      <br><br>
+      <button class="btnlogin" type="submit">Login</button>
+    </form>
+  </div>
+  
+    <div class="newusr">
+     <a class="newuser"  href="#">new user  </a>
+     <a class="forgetps" href="#">forget password</a>
+      
+
+     </div>
+  
+  
+</body>
+</html>

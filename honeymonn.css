@@ -1,0 +1,130 @@
+header a{
+    text-decoration: none;
+    color: white;
+}
+header a:hover{
+    color: red;
+    transition: .3s linear;
+}
+header nav{
+    width: 100%;
+    height: 10vh;
+    background-color: rgb(9, 8, 8);
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    opacity: 80%;
+   
+    
+} 
+header nav ul{
+    list-style: none;
+    display: flex;
+}
+header nav ul li{
+
+    padding: 3px 15px;
+}
+header nav h3{
+    font-size: small;
+    border-radius: 20px;
+    padding: 5px 20px;
+    background-color: rgba(255, 187, 0, 0.602);
+    color: #010201;
+    cursor: pointer;
+    transition: .5s linear;
+}
+header nav h3:hover{
+    background-color: red;
+    color: black;
+}
+
+.hnb{
+    margin-top: 1%;
+    width: 100%;
+    height: 85vh;
+    background-image: url(img/120336_dine-by-design_002.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+  
+   
+  
+}
+.hn123 h5{
+    margin-top: -30%;
+    text-align: center;
+    font-size: 30px;
+    animation-name: textzoom;
+    animation-duration: .5s;
+    animation-timing-function: linear;
+    /* animation-iteration-count: infinite; */
+    text-shadow: 2px 2px 5px red;
+
+}
+@keyframes textzoom {
+    0%{
+        font-size: 30px;
+
+    }
+    100%{
+        font-size: 100px;
+
+    }
+    
+}
+.hnyplaces1{
+    margin-top: 30%;
+    color: rgb(38, 0, 255);
+    text-align: center;
+    text-shadow: 2px 2px 5px black;
+    font-size: 30px;
+    animation: glow .3s ease-in-out infinite alternate;
+    text-shadow: 0 0 10px rgba(70, 6, 231, 0.5), 0 0 20px rgba(29, 221, 4, 0.5), 0 0 30px rgba(102, 236, 12, 0.5);
+}
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px rgba(224, 16, 16, 0.5), 0 0 20px rgba(38, 16, 210, 0.5), 0 0 30px rgba(70, 8, 193, 0.5);
+    }
+    to {
+        text-shadow: 0 0 20px rgba(255, 60, 7, 0.9), 0 0 40px rgba(5, 28, 179, 0.9), 0 0 60px rgba(4, 38, 189, 0.9);
+    }
+}
+
+/* hny1 */
+section{
+    height: 60vh;
+    width: 80%;
+    position: relative;
+   
+}
+.hny0{
+    font-size: 30px;
+    color: darkblue;
+}
+.hny1{
+    width: 28%;
+    height: 28vh;
+    border-radius: 25px;
+    margin-left: 5%;
+    
+    background-image: url(img/goa.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}
+.hnygoa{
+    margin-left: 6%;
+}
+.hnydaman{
+    width: 27%;
+    height: 28vh;
+    border-radius: 25px;
+    margin-left: 5%;
+    margin-top: -4%;
+    background-image: url(img/452628562.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+}

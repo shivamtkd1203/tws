@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Photo Slideshow</title>
+<style>
+  body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+  }
+
+  .slideshow {
+    position: relative;
+    width: 800px;
+    height: 500px;
+    overflow: hidden;
+  }
+
+  .slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 1s ease-in-out;
+  }
+
+  .slide.active {
+    opacity: 1;
+  }
+</style>
+</head>
+<body>
+<div class="slideshow">
+  <div class="slide active">
+    <img src="img/artwork-nature-landscape-fantasy-art-wallpaper-preview.jpg" alt="Image 1">
+  </div>
+  <div class="slide">
+    <img src="img/blue-foaming-waves-north-beach-nazare-portugal_1268-15934.avif" alt="Image 2">
+  </div>
+  <div class="slide">
+    <img src="img/beach-sandy-beach-lagoon-tropical-landscape-wallpaper-preview.jpg" alt="Image 3">
+  </div>
+</div>
+<script>
+  const slides = document.querySelectorAll('.slide');
+  let currentSlide = 0;
+
+  function showSlide(index) {
+    slides.forEach((slide, idx) => {
+      if (idx === index) {
+        slide.classList.add('active');
+      } else {
+        slide.classList.remove('active');
+      }
+    });
+  }
+
+  function nextSlide() {
+    currentSlide = (currentSlide + 1) % slides.length;
+    showSlide(currentSlide);
+  }
+
+  setInterval(nextSlide, 1000); // Change slide every 3 seconds
+</script>
+</body>
+</html>
